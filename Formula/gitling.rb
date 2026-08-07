@@ -1,26 +1,26 @@
 class Gitling < Formula
   desc "At-a-glance git repository dashboard for the terminal"
   homepage "https://github.com/lcondliffe/gitling"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lcondliffe/gitling/releases/download/v0.4.0/gitling_v0.4.0_darwin_arm64.tar.gz"
-      sha256 "3bd4daaed9d3f1baba3abb3adc3f330dd13a666c7557c3639165414318f6e5ce"
+      url "https://github.com/lcondliffe/gitling/releases/download/v0.5.0/gitling_v0.5.0_darwin_arm64.tar.gz"
+      sha256 "44976378f4da9ea8edb2b9a362c800f6efe5f53868aaaa9fa9325c92be668d7b"
     else
-      url "https://github.com/lcondliffe/gitling/releases/download/v0.4.0/gitling_v0.4.0_darwin_amd64.tar.gz"
-      sha256 "d8440a4fa9fc6d6a4e71f8b166e6751326ef3c0d8de130eea9371ef11e464128"
+      url "https://github.com/lcondliffe/gitling/releases/download/v0.5.0/gitling_v0.5.0_darwin_amd64.tar.gz"
+      sha256 "37844d280bb222e9c0bca261b4361f75ca6a8e721bd3a56f713b0a7c95cd3ee3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lcondliffe/gitling/releases/download/v0.4.0/gitling_v0.4.0_linux_arm64.tar.gz"
-      sha256 "7a9252910efdc534d02b3c8ee9c84b21eb25f095de4a09b14485aa154eaa8545"
+      url "https://github.com/lcondliffe/gitling/releases/download/v0.5.0/gitling_v0.5.0_linux_arm64.tar.gz"
+      sha256 "797c3187e4f31703cdad6853ac8797fa93386f648c9d77dd8091e67af5016b20"
     else
-      url "https://github.com/lcondliffe/gitling/releases/download/v0.4.0/gitling_v0.4.0_linux_amd64.tar.gz"
-      sha256 "c0c144428faf1ce5c6a4bf3774a3fed7ad606de837a398e2c75d9bbfffec7375"
+      url "https://github.com/lcondliffe/gitling/releases/download/v0.5.0/gitling_v0.5.0_linux_amd64.tar.gz"
+      sha256 "aa44c718369d9882bbb3f60e9884b470967e4de53d20a9b4a8df19a591234785"
     end
   end
 
